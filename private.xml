@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+<root>
+       <item>
+        <name>Disable command left / tab to change app => create typing conflict</name>
+        <identifier>private.change_command_L_Tab</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::TAB,
+            ModifierFlag::COMMAND_L,
+            KeyCode::TAB
+        </autogen>
+    </item>
+    <item>
+        <name>Backquote key  now control key</name>
+        <identifier>private.change_shift</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::BACKQUOTE,
+            KeyCode::CONTROL_L
+        </autogen>
+    </item>
+    
+    <item>
+        <name>Command_R and Option_L outputs Option_R</name>
+        <identifier>private.option_l_and_command_r</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::OPTION_L, 
+            ModifierFlag::COMMAND_R,
+            KeyCode::OPTION_R
+        </autogen>
+    </item>
+    
+    <item>
+        <name>Home Row Arrow Keys: Option + JIKL to ^&lt;&gt;v</name>
+        <identifier>private.option_homerowarrows</identifier>
+       <autogen>
+            __KeyToKey__ 
+            KeyCode::J,
+            ModifierFlag::OPTION_L,
+            KeyCode::CURSOR_LEFT
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::K,
+            ModifierFlag::OPTION_L,
+            KeyCode::CURSOR_DOWN
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::I,
+            ModifierFlag::OPTION_L,
+            KeyCode::CURSOR_UP
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::L,
+            ModifierFlag::OPTION_L,
+            KeyCode::CURSOR_RIGHT
+        </autogen>
+    </item>
+    
+    <item>
+        <name> Change ALT => H U O ; ' { to ! @ # % * </name>
+        <identifier>private.hash_tag_change</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::H,
+            ModifierFlag::OPTION_L,
+            KeyCode::KEY_1, ModifierFlag::SHIFT_L,
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::U,
+            ModifierFlag::OPTION_L,
+            KeyCode::KEY_2, ModifierFlag::SHIFT_L,
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::O,
+            ModifierFlag::OPTION_L,
+            KeyCode::KEY_3, ModifierFlag::OPTION_L,
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::SEMICOLON,
+            ModifierFlag::OPTION_L,
+            KeyCode::KEY_5, ModifierFlag::SHIFT_L,
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::QUOTE,
+            ModifierFlag::OPTION_L,
+            KeyCode::KEY_8, ModifierFlag::SHIFT_L,
+        </autogen>
+    </item>
+    
+    <item>
+        <name>Home row to nubmer pad using command right</name>
+        <identifier>private.homerow_to_numberpad_command</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::A,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_1
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::S,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_2
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::D,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_3
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::F,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_4
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::G,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_5
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::H,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_6
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::J,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_7
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::K,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_8
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::L,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_9
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::SEMICOLON,
+            ModifierFlag::COMMAND_R,
+            KeyCode::KEY_0
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::DOT,
+            ModifierFlag::COMMAND_R,
+            KeyCode::DOT
+        </autogen>
+        
+    </item>
+    
+    <item>
+        <name>Command Left + space Right into enter</name>
+        <identifier>private.space_to_enter</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::SPACE,
+            ModifierFlag::COMMAND_L,
+            KeyCode::RETURN
+        </autogen>
+    </item>
+    
+    <item>
+        <name>Command Right + space Left into delete</name>
+        <identifier>private.space_to_deleate</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::SPACE,
+            ModifierFlag::COMMAND_R,
+            KeyCode::DELETE
+        </autogen>
+    </item>
+    
+    <item>
+        <name>Command R then L into power delete</name>
+        <identifier>private.double_command_to_power_deleate</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::COMMAND_L,
+            ModifierFlag::COMMAND_R,
+            KeyCode::DELETE,
+            ModifierFlag::OPTION_R,
+        </autogen>
+    </item>
+
+    <item>
+        <name>Remap J K L ; ' \ into ( ) _ = - + with command left</name>
+        <identifier>private.remap_top_row_specials</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::J, 
+            ModifierFlag::COMMAND_L, 
+            KeyCode::KEY_9, ModifierFlag::SHIFT_L
+        </autogen>
+         <autogen>
+            __KeyToKey__ 
+            KeyCode::K, 
+            ModifierFlag::COMMAND_L, 
+            KeyCode::KEY_0, ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::L, 
+            ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L,
+            KeyCode::MINUS,
+        </autogen>        
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::L,
+            ModifierFlag::COMMAND_L,
+            KeyCode::MINUS, ModifierFlag::SHIFT_L
+        </autogen>
+         <autogen>
+            __KeyToKey__ 
+            KeyCode::SEMICOLON, 
+            ModifierFlag::COMMAND_L, 
+            KeyCode::EQUAL
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::QUOTE, 
+            ModifierFlag::COMMAND_L,
+            KeyCode::MINUS
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::BACKSLASH, 
+            ModifierFlag::COMMAND_L,
+            KeyCode::EQUAL, ModifierFlag::SHIFT_L
+        </autogen>
+    </item>
+    
+    <item>
+        <name>Mouse commands - Custom</name>
+    
+        <item>
+            <name>Mouse button 4 to desktop</name>
+            <identifier>private.mouse_4</identifier>
+            <autogen>
+                __KeyToKey__
+                PointingButton::BUTTON4,
+                KeyCode::F11, ModifierFlag::FN,
+            </autogen>
+        </item>
+
+        <item>
+            <name>Mouse button 5 to show all</name>
+            <identifier>private.mouse_5</identifier>
+            <autogen>
+                __KeyToKey__
+                PointingButton::BUTTON5,
+                KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L,
+            </autogen>
+        </item>
+
+        <item>
+            <name>Mouse button middle to command shift tab</name>
+            <identifier>private.mouse_middle</identifier>
+            <autogen>
+                __KeyToKey__
+                PointingButton::MIDDLE,
+                KeyCode::TAB, ModifierFlag::SHIFT_L, ModifierFlag::COMMAND_L
+            </autogen>
+        </item>
+    </item>
+    
+    <item>
+        <name>F2 / F3 / F4 act as volume keys</name>
+        <identifier>private.f_volume_keys</identifier>
+        <autogen>
+            __KeyToKey__
+            ModifierFlag::FN,
+            KeyCode::F2,
+            ConsumerKeyCode::VOLUME_MUTE
+        </autogen>
+        <autogen>
+            __KeyToKey__
+            ModifierFlag::FN,
+            KeyCode::F3,
+            ConsumerKeyCode::VOLUME_DOWN
+        </autogen>
+        <autogen>
+            __KeyToKey__
+            ModifierFlag::FN,
+            KeyCode::F4,
+            ConsumerKeyCode::VOLUME_UP
+        </autogen>
+    </item>
+     
+    
+    <item>
+        <name>Open Programs - Custom</name>
+    
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_Terminal</name>
+            <url>file:///Applications/Utilities/Terminal.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Terminal with Option Space</name>
+            <identifier>ActivateTerminalWithCmdSpace</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::SPACE, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_Terminal
+            </autogen>
+        </item>
+
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_CHROME</name>
+            <url>file:///Applications/Google%20Chrome.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Chrome with Option C</name>
+            <identifier>ActivateChrome</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::C, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_CHROME
+            </autogen>
+        </item>
+
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_TRANSMISSION</name>
+            <url>file:///Applications/Transmission.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Transmission with Option T</name>
+            <identifier>ActivateTransmission</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::T, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_TRANSMISSION
+            </autogen>
+        </item>
+
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_LIBRE_OFFICE</name>
+            <url>file:///Applications/LibreOffice.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Libre Office with Option W</name>
+            <identifier>ActivateLibreOffice</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::W, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_LIBRE_OFFICE
+            </autogen>
+        </item>
+
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_VLC</name>
+            <url>file:///Applications/VLC.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate VLC with Option V</name>
+            <identifier>ActivateVLC</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::V, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_VLC
+            </autogen>
+        </item>
+
+         <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_STEAM</name>
+            <url>file:///Applications/Steam.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Steam with Option S</name>
+            <identifier>ActivateSteam</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::S, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_STEAM
+            </autogen>
+        </item>
+
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_EMACS</name>
+            <url>file:///Applications/Emacs.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Emacs with Option E</name>
+            <identifier>ActivateEmacs</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::E, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_EMACS
+            </autogen>
+        </item>
+
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_TOR_BROWSER</name>
+            <url>file:///Applications/TorBrowser.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate TorBrowser with Option B</name>
+            <identifier>ActivateTorBrowser</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::B, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_TOR_BROWSER
+            </autogen>
+        </item>
+
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_TOR_PREVIEW</name>
+            <url>file:///Applications/Preview.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Preview with Option P</name>
+            <identifier>ActivatePreiew</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::P, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_TOR_PREVIEW
+            </autogen>
+        </item>
+        
+    </item>
+    
+    
+</root>
+
+

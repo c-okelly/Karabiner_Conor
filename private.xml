@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <root>
-       <item>
+       
+    <item>
+        <name>Danish doller key now BACKQUOTE</name>
+        <identifier>private.change_danish_doller_to_BACKQUOTE</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::DANISH_DOLLAR,
+            KeyCode::BACKQUOTE
+        </autogen>
+    </item>
+    <item>
         <name>Disable command left / tab to change app => create typing conflict</name>
         <identifier>private.change_command_L_Tab</identifier>
         <autogen>

@@ -1,7 +1,55 @@
 <?xml version="1.0"?>
 <root>
+    <item>
+        <name>Enable table shifting with Contorl J and control H </name>
+        <identifier>chorme_tab_shifiting</identifier>
+        
+        <only>GOOGLE_CHROME</only>
+        
+        <autogen>
+            __KeyToKey__
+            KeyCode::K,
+            ModifierFlag::CONTROL_L,
+            KeyCode::TAB,
+            ModifierFlag::CONTROL_L,
+        </autogen>
+        
+        <autogen>
+            __KeyToKey__
+            KeyCode::J,
+            ModifierFlag::CONTROL_L,
+            KeyCode::TAB,
+            ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L
+        </autogen>
+        
+    </item>
+    
+    <item>
+        <name>Open spotlight with Control space</name>
+        <identifier>Open_spotlight</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::SPACE,
+            ModifierFlag::CONTROL_L,
+            KeyCode::SPACE,
+            ModifierFlag::COMMAND_R
+        </autogen>
+    </item>
+    
+    <item>
+        <name>Open spotlight with finder search with Control F </name>
+        <identifier>Open_finder_search</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::F,
+            ModifierFlag::CONTROL_L,
+            KeyCode::SPACE,
+            ModifierFlag::COMMAND_R | ModifierFlag::OPTION_R
+        </autogen>
+    </item>
+    
        <item>
-        <name>Disable command left / tab to change app => create typing conflict</name>
+        <name>Disable command left / tab to change app => as it creates typing conflict</name>
         <identifier>private.change_command_L_Tab</identifier>
         <autogen>
             __KeyToKey__ 

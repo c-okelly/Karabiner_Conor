@@ -21,7 +21,21 @@
             KeyCode::TAB,
             ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L
         </autogen>
+    </item>
+    
+    <item>
+        <name>Back one page with Control H => Chrome</name>
+        <identifier>chrome_back_history</identifier>
         
+        <only>GOOGLE_CHROME</only>
+        
+        <autogen>
+            __KeyToKey__
+            KeyCode::H,
+            ModifierFlag::CONTROL_L,
+            KeyCode::BRACKET_LEFT,
+            ModifierFlag::COMMAND_L,
+        </autogen>
     </item>
     
     <item>

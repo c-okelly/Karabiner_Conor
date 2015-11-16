@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <root>
+<<<<<<< HEAD
     <item>
         <name>Enable table shifting with Contorl J and control H </name>
         <identifier>chorme_tab_shifiting</identifier>
@@ -50,6 +51,20 @@
     
        <item>
         <name>Disable command left / tab to change app => as it creates typing conflict</name>
+=======
+       
+    <item>
+        <name>Danish doller key now BACKQUOTE</name>
+        <identifier>private.change_danish_doller_to_BACKQUOTE</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::DANISH_DOLLAR,
+            KeyCode::BACKQUOTE
+        </autogen>
+    </item>
+    <item>
+        <name>Disable command left / tab to change app => create typing conflict</name>
+>>>>>>> 11db16e2e766092839b2623c809f2cb844754e39
         <identifier>private.change_command_L_Tab</identifier>
         <autogen>
             __KeyToKey__ 

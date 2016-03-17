@@ -52,6 +52,27 @@
         </item>
     </item>
     
+    <item><name>Terminal settings</name>
+        <name>Shift left and right in terminal wiht command L left and right arrows</name>
+        <identifier>terminal_shifiting</identifier>
+        <only>TERMINAL</only>
+    
+        <autogen>
+                __KeyToKey__
+                KeyCode::J,
+                ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L,
+                KeyCode::CURSOR_RIGHT,
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
+        </autogen>
+        <autogen>
+                __KeyToKey__
+                KeyCode::L,
+                ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L,
+                KeyCode::CURSOR_LEFT,
+                ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
+        </autogen>
+    </item>
+
     <item>
         <name>Open spotlight with Control space</name>
         <identifier>Open_spotlight</identifier>

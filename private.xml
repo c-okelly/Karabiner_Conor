@@ -151,7 +151,7 @@
             __KeyToKey__ 
             KeyCode::O,
             ModifierFlag::OPTION_L,
-            KeyCode::KEY_3, ModifierFlag::OPTION_L,
+            KeyCode::KEY_3, ModifierFlag::SHIFT_L,
         </autogen>
         <autogen>
             __KeyToKey__ 

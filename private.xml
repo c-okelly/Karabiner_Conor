@@ -2,7 +2,7 @@
 <root>
     <item><name>Chrome settings</name>
         <item>
-            <name>Enable table shifting with Contorl J and control H </name>
+            <name>Enable table shifting with Contorl J and control H</name>
             <identifier>chorme_tab_shifiting</identifier>
 
             <only>GOOGLE_CHROME</only>
@@ -22,9 +22,21 @@
                 KeyCode::TAB,
                 ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L
             </autogen>
+ 
+        </item>
+        <item>
+        <name>change windows with Control L</name>
+             <identifier>change_chrome_window</identifier>
+                <autogen>
+                __KeyToKey__
+                KeyCode::L,
+                ModifierFlag::CONTROL_L,
+                KeyCode::BACKQUOTE,
+                ModifierFlag::COMMAND_R
+            </autogen>
         </item>
 
-            <item>
+        <item>
             <name>Back one page with Control H => Chrome</name>
             <identifier>chrome_back_history</identifier>
 

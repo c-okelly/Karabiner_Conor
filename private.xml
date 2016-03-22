@@ -59,14 +59,14 @@
     
         <autogen>
                 __KeyToKey__
-                KeyCode::J,
+                KeyCode::L,
                 ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L,
                 KeyCode::CURSOR_RIGHT,
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
         </autogen>
         <autogen>
                 __KeyToKey__
-                KeyCode::L,
+                KeyCode::J,
                 ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L,
                 KeyCode::CURSOR_LEFT,
                 ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L

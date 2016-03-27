@@ -166,7 +166,7 @@
     </item>
     
     <item>
-        <name> Change ALT => H Y U O ; ' { to ! $ @ # % * </name>
+        <name> Change ALT => N H Y U O ; ' { to & ! $ @ # % * </name>
         <identifier>private.hash_tag_change</identifier>
         <autogen>
             __KeyToKey__ 
@@ -203,6 +203,12 @@
             KeyCode::QUOTE,
             ModifierFlag::OPTION_L,
             KeyCode::KEY_8, ModifierFlag::SHIFT_L,
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::N,
+            ModifierFlag::OPTION_L,
+            KeyCode::KEY_7, ModifierFlag::SHIFT_L,
         </autogen>
     </item>
     

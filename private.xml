@@ -210,6 +210,12 @@
             ModifierFlag::OPTION_L,
             KeyCode::KEY_7, ModifierFlag::SHIFT_L,
         </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::M,
+            ModifierFlag::OPTION_L,
+            KeyCode::KEY_6, ModifierFlag::SHIFT_L,
+        </autogen>
     </item>
     
     <item>

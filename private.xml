@@ -463,21 +463,6 @@
         </item>
 
         <vkopenurldef>
-            <name>KeyCode::VK_OPEN_URL_OPEN_TRANSMISSION</name>
-            <url>file:///Applications/Transmission.app</url>
-        </vkopenurldef>
-
-        <item>
-            <name>Activate Transmission with Option T</name>
-            <identifier>ActivateTransmission</identifier>
-            <autogen>
-                __KeyToKey__
-                KeyCode::T, ModifierFlag::OPTION_L,
-                KeyCode::VK_OPEN_URL_OPEN_TRANSMISSION
-            </autogen>
-        </item>
-
-        <vkopenurldef>
             <name>KeyCode::VK_OPEN_URL_OPEN_LIBRE_OFFICE</name>
             <url>file:///Applications/LibreOffice.app</url>
         </vkopenurldef>
@@ -524,11 +509,11 @@
 
         <vkopenurldef>
             <name>KeyCode::VK_OPEN_URL_OPEN_EMACS</name>
-            <url>file:///Applications/Emacs.app</url>
+            <url>file:///Applications/Vim.app</url>
         </vkopenurldef>
 
         <item>
-            <name>Activate Emacs with Option E</name>
+            <name>Activate Vim with Option E</name>
             <identifier>ActivateEmacs</identifier>
             <autogen>
                 __KeyToKey__
@@ -553,7 +538,7 @@
         </item>
 
         <vkopenurldef>
-            <name>KeyCode::VK_OPEN_URL_OPEN_TOR_PREVIEW</name>
+            <name>KeyCode::VK_OPEN_URL_OPEN_PREVIEW</name>
             <url>file:///Applications/Preview.app</url>
         </vkopenurldef>
 
@@ -563,7 +548,37 @@
             <autogen>
                 __KeyToKey__
                 KeyCode::P, ModifierFlag::OPTION_L,
-                KeyCode::VK_OPEN_URL_OPEN_TOR_PREVIEW
+                KeyCode::VK_OPEN_URL_OPEN_PREVIEW
+            </autogen>
+        </item>
+        
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_WUNDERLIST</name>
+            <url>file:///Applications/Wunderlist.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Wunderlist Option T</name>
+            <identifier>ActivateWunderlist</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::T, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_WUNDERLIST
+            </autogen>
+        </item>
+        
+        <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_PYCHARM</name>
+            <url>file:///Applications/PyCharm.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Pycharm with Option R</name>
+            <identifier>ActivatePycharm</identifier>
+            <autogen>
+                __KeyToKey__
+                KeyCode::R, ModifierFlag::OPTION_L,
+                KeyCode::VK_OPEN_URL_OPEN_PYCHARM
             </autogen>
         </item>
         

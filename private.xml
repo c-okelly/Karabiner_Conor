@@ -509,7 +509,7 @@
 
         <vkopenurldef>
             <name>KeyCode::VK_OPEN_URL_OPEN_EMACS</name>
-            <url>file:///Applications/Vim.app</url>
+            <url>file:///Applications/Emacs.app</url>
         </vkopenurldef>
 
         <item>

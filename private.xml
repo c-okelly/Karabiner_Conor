@@ -568,6 +568,21 @@
         </item>
         
         <vkopenurldef>
+            <name>KeyCode::VK_OPEN_URL_OPEN_TERLLO</name>
+            <url>file:///Applications/Trello.app</url>
+        </vkopenurldef>
+
+        <item>
+            <name>Activate Trello Option G</name>
+            <identifier>ActivateTrello</identifier>
+            <autogen>
+                __DoublePressModifier__
+                KeyCode::G, ModifierFlag::OPTION_L, 
+                KeyCode::VK_OPEN_URL_OPEN_TERLLO
+            </autogen>
+        </item>
+        
+        <vkopenurldef>
             <name>KeyCode::VK_OPEN_URL_OPEN_PYCHARM</name>
             <url>file:///Applications/PyCharm.app</url>
         </vkopenurldef>

@@ -1,5 +1,17 @@
 <?xml version="1.0"?>
 <root>
+    <item>
+        <name>Swap Command R to meta key in emacs</name>
+        <identifier>private.shift_to_meta_emacs</identifier>
+
+        <only>EMACS</only>
+
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::COMMAND_R,
+            KeyCode::OPTION_R</autogen>
+      </item>
+    
     <item><name>Chrome settings</name>
         <item>
             <name>Enable table shifting with Contorl J and control H</name>

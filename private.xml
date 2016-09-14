@@ -9,6 +9,7 @@
         <autogen>
             __KeyToKey__ 
             KeyCode::COMMAND_R,
+             ModifierFlag::COMMAND_L,
             KeyCode::OPTION_R</autogen>
       </item>
     

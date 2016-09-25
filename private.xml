@@ -40,6 +40,9 @@
         <item>
         <name>change windows with Control L</name>
              <identifier>change_chrome_window</identifier>
+            
+            <only>GOOGLE_CHROME</only>
+            
                 <autogen>
                 __KeyToKey__
                 KeyCode::L,

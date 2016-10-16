@@ -7,12 +7,12 @@
         <only>EMACS</only>
 
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::COMMAND_R,
-             ModifierFlag::COMMAND_L,
+            ModifierFlag::CONTROL_L,  
             KeyCode::OPTION_R</autogen>
       </item>
-    
+
     <item><name>Chrome settings</name>
         <item>
             <name>Enable table shifting with Contorl J and control H</name>
@@ -35,14 +35,14 @@
                 KeyCode::TAB,
                 ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L
             </autogen>
- 
+
         </item>
         <item>
         <name>change windows with Control L</name>
              <identifier>change_chrome_window</identifier>
-            
+
             <only>GOOGLE_CHROME</only>
-            
+
                 <autogen>
                 __KeyToKey__
                 KeyCode::L,
@@ -67,12 +67,12 @@
             </autogen>
         </item>
     </item>
-    
+
     <item><name>Terminal settings</name>
         <name>Shift left and right in terminal wiht command L left and right arrows</name>
         <identifier>terminal_shifiting</identifier>
         <only>TERMINAL</only>
-    
+
         <autogen>
                 __KeyToKey__
                 KeyCode::L,
@@ -100,7 +100,7 @@
             ModifierFlag::COMMAND_R
         </autogen>
     </item>
-    
+
     <item>
         <name>Open spotlight with finder search with Control F </name>
         <identifier>Open_finder_search</identifier>
@@ -111,12 +111,12 @@
             KeyCode::SPACE,
             ModifierFlag::COMMAND_R | ModifierFlag::OPTION_R
         </autogen>
-    </item>  
+    </item>
     <item>
         <name>Danish doller key now BACKQUOTE</name>
         <identifier>private.change_danish_doller_to_BACKQUOTE</identifier>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::DANISH_DOLLAR,
             KeyCode::BACKQUOTE
         </autogen>
@@ -125,7 +125,7 @@
         <name>Disable command left / tab to change app => create typing conflict</name>
         <identifier>private.change_command_L_Tab</identifier>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::TAB,
             ModifierFlag::COMMAND_L,
             KeyCode::TAB
@@ -135,204 +135,204 @@
         <name>Backquote key  now control key</name>
         <identifier>private.change_shift</identifier>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::BACKQUOTE,
             KeyCode::CONTROL_L
         </autogen>
     </item>
-    
+
     <item>
         <name>Command_R and Option_L outputs Option_R</name>
         <identifier>private.option_l_and_command_r</identifier>
         <autogen>
             __KeyToKey__
-            KeyCode::OPTION_L, 
+            KeyCode::OPTION_L,
             ModifierFlag::COMMAND_R,
             KeyCode::OPTION_R
         </autogen>
     </item>
-    
+
     <item>
         <name>Home Row Arrow Keys: Option + JIKL to ^&lt;&gt;v</name>
         <identifier>private.option_homerowarrows</identifier>
        <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::J,
             ModifierFlag::OPTION_L,
             KeyCode::CURSOR_LEFT
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::K,
             ModifierFlag::OPTION_L,
             KeyCode::CURSOR_DOWN
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::I,
             ModifierFlag::OPTION_L,
             KeyCode::CURSOR_UP
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::L,
             ModifierFlag::OPTION_L,
             KeyCode::CURSOR_RIGHT
         </autogen>
     </item>
-    
+
     <item>
         <name> Change ALT => N H Y U O ; ' { to & ! $ @ # % * </name>
         <identifier>private.hash_tag_change</identifier>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::H,
             ModifierFlag::OPTION_L,
             KeyCode::KEY_1, ModifierFlag::SHIFT_L,
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::Y,
             ModifierFlag::OPTION_L,
             KeyCode::KEY_4, ModifierFlag::SHIFT_L,
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::U,
             ModifierFlag::OPTION_L,
             KeyCode::KEY_2, ModifierFlag::SHIFT_L,
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::O,
             ModifierFlag::OPTION_L,
             KeyCode::KEY_3, ModifierFlag::SHIFT_L,
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::SEMICOLON,
             ModifierFlag::OPTION_L,
             KeyCode::KEY_5, ModifierFlag::SHIFT_L,
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::QUOTE,
             ModifierFlag::OPTION_L,
             KeyCode::KEY_8, ModifierFlag::SHIFT_L,
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::N,
             ModifierFlag::OPTION_L,
             KeyCode::KEY_7, ModifierFlag::SHIFT_L,
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::M,
             ModifierFlag::OPTION_L,
             KeyCode::KEY_6, ModifierFlag::SHIFT_L,
         </autogen>
     </item>
-    
+
     <item>
         <name>Home row to nubmer pad using command right</name>
         <identifier>private.homerow_to_numberpad_command</identifier>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::A,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_1
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::S,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_2
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::D,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_3
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::F,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_4
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::G,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_5
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::H,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_6
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::J,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_7
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::K,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_8
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::L,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_9
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::SEMICOLON,
             ModifierFlag::COMMAND_R,
             KeyCode::KEY_0
         </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::DOT,
             ModifierFlag::COMMAND_R,
             KeyCode::DOT
         </autogen>
-        
+
     </item>
-    
+
     <item>
         <name>Command Left + space Right into enter</name>
         <identifier>private.space_to_enter</identifier>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::SPACE,
             ModifierFlag::COMMAND_L,
             KeyCode::RETURN
         </autogen>
     </item>
-    
+
     <item>
         <name>Command Right + space Left into delete</name>
         <identifier>private.space_to_deleate</identifier>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::SPACE,
             ModifierFlag::COMMAND_R,
             KeyCode::DELETE
         </autogen>
     </item>
-    
+
     <item>
         <name>Command R then L into power delete</name>
         <identifier>private.double_command_to_power_deleate</identifier>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::COMMAND_L,
             ModifierFlag::COMMAND_R,
             KeyCode::DELETE,
@@ -344,52 +344,52 @@
         <name>Remap J K L ; ' \ into ( ) _ = - + with command left</name>
         <identifier>private.remap_top_row_specials</identifier>
         <autogen>
-            __KeyToKey__ 
-            KeyCode::J, 
-            ModifierFlag::COMMAND_L, 
+            __KeyToKey__
+            KeyCode::J,
+            ModifierFlag::COMMAND_L,
             KeyCode::KEY_9, ModifierFlag::SHIFT_L
         </autogen>
          <autogen>
-            __KeyToKey__ 
-            KeyCode::K, 
-            ModifierFlag::COMMAND_L, 
+            __KeyToKey__
+            KeyCode::K,
+            ModifierFlag::COMMAND_L,
             KeyCode::KEY_0, ModifierFlag::SHIFT_L
         </autogen>
         <autogen>
-            __KeyToKey__ 
-            KeyCode::L, 
+            __KeyToKey__
+            KeyCode::L,
             ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L,
             KeyCode::MINUS,
-        </autogen>        
+        </autogen>
         <autogen>
-            __KeyToKey__ 
+            __KeyToKey__
             KeyCode::L,
             ModifierFlag::COMMAND_L,
             KeyCode::MINUS, ModifierFlag::SHIFT_L
         </autogen>
          <autogen>
-            __KeyToKey__ 
-            KeyCode::SEMICOLON, 
-            ModifierFlag::COMMAND_L, 
+            __KeyToKey__
+            KeyCode::SEMICOLON,
+            ModifierFlag::COMMAND_L,
             KeyCode::EQUAL
         </autogen>
         <autogen>
-            __KeyToKey__ 
-            KeyCode::QUOTE, 
+            __KeyToKey__
+            KeyCode::QUOTE,
             ModifierFlag::COMMAND_L,
             KeyCode::MINUS
         </autogen>
         <autogen>
-            __KeyToKey__ 
-            KeyCode::BACKSLASH, 
+            __KeyToKey__
+            KeyCode::BACKSLASH,
             ModifierFlag::COMMAND_L,
             KeyCode::EQUAL, ModifierFlag::SHIFT_L
         </autogen>
     </item>
-    
+
     <item>
         <name>Mouse commands - Custom</name>
-    
+
         <item>
             <name>Mouse button 4 to desktop</name>
             <identifier>private.mouse_4</identifier>
@@ -420,7 +420,7 @@
             </autogen>
         </item>
     </item>
-    
+
     <item>
         <name>F2 / F3 / F4 act as volume keys</name>
         <identifier>private.f_volume_keys</identifier>
@@ -443,11 +443,11 @@
             ConsumerKeyCode::VOLUME_UP
         </autogen>
     </item>
-     
-    
+
+
     <item>
         <name>Open Programs - Custom</name>
-    
+
         <vkopenurldef>
             <name>KeyCode::VK_OPEN_URL_Terminal</name>
             <url>file:///Applications/Utilities/Terminal.app</url>
@@ -567,7 +567,7 @@
                 KeyCode::VK_OPEN_URL_OPEN_PREVIEW
             </autogen>
         </item>
-        
+
         <vkopenurldef>
             <name>KeyCode::VK_OPEN_URL_OPEN_WUNDERLIST</name>
             <url>file:///Applications/Wunderlist.app</url>
@@ -582,7 +582,7 @@
                 KeyCode::VK_OPEN_URL_OPEN_WUNDERLIST
             </autogen>
         </item>
-        
+
         <vkopenurldef>
             <name>KeyCode::VK_OPEN_URL_OPEN_TERLLO</name>
             <url>file:///Applications/Trello.app</url>
@@ -593,11 +593,11 @@
             <identifier>ActivateTrello</identifier>
             <autogen>
                 __DoublePressModifier__
-                KeyCode::G, ModifierFlag::OPTION_L, 
+                KeyCode::G, ModifierFlag::OPTION_L,
                 KeyCode::VK_OPEN_URL_OPEN_TERLLO
             </autogen>
         </item>
-        
+
         <vkopenurldef>
             <name>KeyCode::VK_OPEN_URL_OPEN_PYCHARM</name>
             <url>file:///Applications/PyCharm.app</url>
@@ -612,10 +612,8 @@
                 KeyCode::VK_OPEN_URL_OPEN_PYCHARM
             </autogen>
         </item>
-        
+
     </item>
-    
-    
+
+
 </root>
-
-

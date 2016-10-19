@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <root>
     <item>
-        <name>Swap Command R to meta key in emacs</name>
+        <name>Modify Control L to Option R with Command R</name>
         <identifier>private.shift_to_meta_emacs</identifier>
 
         <only>EMACS</only>
 
         <autogen>
             __KeyToKey__
-            KeyCode::COMMAND_R,
-            ModifierFlag::CONTROL_L,  
+            KeyCode::CONTROL_L,
+            ModifierFlag::COMMAND_R,  
             KeyCode::OPTION_R</autogen>
       </item>
 

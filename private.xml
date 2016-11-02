@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <root>
     <item>
-        <name>Modify Control L to Option R with Command R</name>
+        <name>Commad R + X to Option X in emacs</name>
         <identifier>private.shift_to_meta_emacs</identifier>
 
         <only>EMACS</only>
 
         <autogen>
             __KeyToKey__
-            KeyCode::CONTROL_L,
+            KeyCode::X,
             ModifierFlag::COMMAND_R,  
-            KeyCode::OPTION_R</autogen>
+            KeyCode::X,
+            ModifierFlag::OPTION_R,  
+        </autogen>
       </item>
 
     <item><name>Chrome settings</name>

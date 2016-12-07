@@ -119,7 +119,7 @@
         <identifier>private.change_danish_doller_to_BACKQUOTE</identifier>
         <autogen>
             __KeyToKey__
-            KeyCode::DANISH_DOLLAR,
+            KeyCode::BACKQUOTE,
             KeyCode::BACKQUOTE
         </autogen>
     </item>
@@ -134,11 +134,11 @@
         </autogen>
     </item>
     <item>
-        <name>Backquote key  now control key</name>
+        <name>Danish dollar key  now control key</name>
         <identifier>private.change_shift</identifier>
         <autogen>
             __KeyToKey__
-            KeyCode::BACKQUOTE,
+            KeyCode::DANISH_DOLLAR,
             KeyCode::CONTROL_L
         </autogen>
     </item>
